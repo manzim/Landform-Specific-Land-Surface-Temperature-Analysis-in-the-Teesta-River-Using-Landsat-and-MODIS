@@ -59,9 +59,9 @@ River and floodplain classes often had insufficient valid pixels after masking.
 Landsat and MODIS monthly LST showed weak but positive correlation.
 Seasonal differences between dry and monsoon periods were observed.
 
-### Reproducibility
+## Reproductibility
 
-All scripts are written in Python using:
+The analysis workflow is implemented in Python and executed in a Google Colab (Jupyter Notebook) environment using the following libraries:
 - Google Earth Engine Python API
 - geemap
 - geopandas
@@ -69,7 +69,7 @@ All scripts are written in Python using:
 - pandas
 - numpy
 
-To reproduce:
+The notebook is fully reproducible upon Earth Engine authentication and project initialization. To reproduce:
 
 - Authenticate Earth Engine
 - Set your project ID
